@@ -1,0 +1,15 @@
+#N canvas 291 151 450 300 10;
+#X obj 94 140 + 500;
+#X obj 94 162 osc~;
+#X obj 103 241 dac~;
+#X obj 96 201 *~;
+#X obj 70 81 r slider;
+#X obj 156 164 r switch;
+#X obj 94 118 * 4500;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 3 0 2 0;
+#X connect 3 0 2 1;
+#X connect 4 0 6 0;
+#X connect 5 0 3 1;
+#X connect 6 0 0 0;
